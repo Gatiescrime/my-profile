@@ -1,0 +1,80 @@
+body  {
+  background-image: url(https://cdn.discordapp.com/attachments/702568810900750527/1162758537202630767/firewatch-8.jpg?ex=653d1a46&is=652aa546&hm=17cae0082f2d77b8acb64cfbf5fdae8c49f6b4def4ccaf0608764ef6bca51582&);
+  color: rgb(30, 30, 30);
+  font-family: Arial
+}
+
+p {
+  color: black;
+}
+
+h2 {
+  color: rgb(78, 108, 213);
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1  {
+color: rgb(20, 207, 209);
+font-family: font-family: 'Gabarito', sans-serif;
+font-weight: 900;
+font-size: 3em;
+}
+
+#profile-circle {
+  border-radius: 50%;
+}
+
+.shadow {
+  box-shadow: 5px 5px 3px black;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+
+.card-white {  background-color: white;
+  margin: 20px;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  text-align: center;
+}
+
+#list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#list-inline li {
+  display: inline;
+  padding: 10px;
+  color: rgb(78, 108, 213);
+}
+
+#list-inline li:hover {
+  background-color: rgb(230,230,230);
+}
+
+
+
